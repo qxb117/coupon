@@ -33,8 +33,6 @@ public class RateLimiterFilter extends AbstractPreZuulFilter {
 
     @Override
     public int filterOrder() {
-        System.out.println("2");
         return 2;
-
     }
 }

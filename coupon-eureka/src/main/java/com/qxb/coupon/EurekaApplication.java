@@ -15,8 +15,5 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 public class EurekaApplication {
     public static void main(String[] args) {
         SpringApplication.run(EurekaApplication.class,args);
-        String name = "qxb";
-        String age = "23";
-        log.info("Eureka Server start success! my name is {}, {} years old",name,age);
     }
 }
