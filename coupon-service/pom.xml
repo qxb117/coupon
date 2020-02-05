@@ -12,6 +12,7 @@
     <artifactId>coupon-service</artifactId>
     <modules>
         <module>coupon-common</module>
+        <module>coupon-template</module>
     </modules>
 
     <packaging>pom</packaging>
