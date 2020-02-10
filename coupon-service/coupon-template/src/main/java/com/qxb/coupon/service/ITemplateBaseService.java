@@ -13,7 +13,7 @@ import java.util.Map;
  * @date 2020-02-08 19:42
  * @description 优惠券模板基础（view，delete...）服务定义
  */
-public interface ITemplateBasicService {
+public interface ITemplateBaseService {
 
     /**
      * 根据优惠券模板 id 获取优惠券模板信息
@@ -33,5 +33,5 @@ public interface ITemplateBasicService {
      * @param ids 模板 ids
      * @return Map<key:模板 id, value:CouponTemplateSDK>
      * */
-    Map<Integer,CouponTemplateSDK> findIdsTemplateSDK(Collection<Integer> ids);
+    Map<Integer,CouponTemplateSDK> findIds2TemplateSDK(Collection<Integer> ids);
 }

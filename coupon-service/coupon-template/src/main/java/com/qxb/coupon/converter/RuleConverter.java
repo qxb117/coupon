@@ -9,7 +9,7 @@ import javax.persistence.Converter;
 /**
  * @author qiuxiaobin
  * @create 2020-02-06 22:26
- * @description 优惠券规则属性转换器
+ * @description 优惠券规则属性转换器(转换成JSON形式的String)
  */
 @Converter
 public class RuleConverter implements AttributeConverter<TemplateRule,String> {

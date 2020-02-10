@@ -8,7 +8,6 @@ import com.qxb.coupon.entity.CouponTemplate;
 
 import java.io.IOException;
 import java.text.SimpleDateFormat;
-import java.util.Date;
 
 /**
  * @author qiuxiaobin

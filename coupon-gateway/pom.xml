@@ -36,7 +36,10 @@
         </dependency>
     </dependencies>
 
-    <!--springBoot的maven打包插件-->
+    <!--
+        SpringBoot的maven插件,能够以maven的方式为应用提供SpringBoot的支持，可以将
+        Spring Boot应用打包为可执行的jar或war文件，然后以通常的方式进行SpringBoot应用
+    -->
     <build>
         <plugins>
             <plugin>
